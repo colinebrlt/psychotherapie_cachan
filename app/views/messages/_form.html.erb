@@ -1,4 +1,4 @@
-<%= form_for messages_path, url: messages_path do |f| %>
+<%= form_for :message, url: messages_path do |f| %>
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
       <%= f.text_field  :name, required: true, class: "form-control", placeholder: "Votre nom" %><br>
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <%= f.text_area :message,
+  <%= f.text_area :body,
                   rows: 8,
                   cols: 40,
                   required: true,
