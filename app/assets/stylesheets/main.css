@@ -1,0 +1,106 @@
+/* HOMEPAGE */
+
+@font-face {
+  font-family: ITC;
+  src: url('app/assets/fonts/ITC Avant Garde Gothic LT Book Regular.otf');
+}
+
+.when-custom {
+  font-size: 1.171875rem;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  margin-top: 100vh;
+  width: 100%;
+}
+
+.custom-section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.picture-frame {
+  border: 5px solid #019898;
+}
+
+.picture-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotateimg {
+  -webkit-transform:rotate(355deg);
+  -moz-transform: rotate(355deg);
+  -ms-transform: rotate(355deg);
+  -o-transform: rotate(355deg);
+  transform: rotate(355deg);
+}
+
+.text-black {
+  color: black;
+  font-weight: bold;
+}
+
+.bg-pink {
+  background-color: #FBF4FE
+}
+
+.number {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 80px;
+  font-size: 2.4rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  border: 3px solid;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* FOOTER */
+.footer-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.custom-footer-border {
+  border-top: 5px solid #019898;
+}
+
+/* JUMBOTRON */
+
+.jumbo {
+  background-image: url("L1000286.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 40px 10px;
+  color: blue;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.jumbo-text {
+  position: absolute;
+  left: 50%!important;
+  z-index: 10;
+  color: rgb(236, 234, 234);
+  text-align: center;
+  top: 50%!important;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  padding: 50px
+}
