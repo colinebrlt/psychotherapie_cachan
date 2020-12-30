@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root 'home#index'
 
   resources :home, only: %i[index]
+  resources :messages, only: %i[new create]
 
 end
