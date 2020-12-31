@@ -11,11 +11,10 @@ class MessagesController < ApplicationController
       redirect_to root_path
     else
       flash[:danger] = "Votre message n'a pas pu être envoyé. Réessayez, ou contactez-moi au 06.12.11.69.56."
-      # render :new
       redirect_to root_path
     end
   end
-
+  
   private
   def message_params
     params.require(:message).permit(:name, :email, :phone_number, :body)

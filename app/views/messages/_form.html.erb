@@ -1,4 +1,11 @@
 <%= form_for :message, url: messages_path do |f| %>
+  <article>
+    <% if flash[:error].present? %>
+      <div id="error_explanation">
+        <p><%= flash[:error] %></p>
+      </div>
+    <% end %>
+  </article>
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
       <%= f.text_field  :name, required: true, class: "form-control", placeholder: "Votre nom" %><br>
