@@ -50,44 +50,6 @@
   background-color: #FBF4FE
 }
 
-.number {
-  width: 4rem;
-  height: 4rem;
-  margin-right: 80px;
-  font-size: 2.4rem;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-weight: 700;
-  border: 3px solid;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-/* NAVBAR */
-.custom-navbar-link {
-  font-weight: 600;
-}
-
-.custom-navbar-title {
-  font-weight: 800;
-  margin-left: 5px;
-}
-
-/* FOOTER */
-.footer-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.custom-footer-border {
-  border-top: 5px solid #019898;
-}
-
 /* JUMBOTRON */
 
 .jumbo {
@@ -114,4 +76,20 @@
   transform: translate(-50%, -50%);
   width: fit-content;
   padding: 50px
+}
+
+/* NAVBAR */
+.custom-navbar-link {
+  font-weight: 600;
+}
+
+.custom-navbar-title {
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+/* FOOTER */
+
+.custom-footer-border {
+  border-top: 5px solid #019898;
 }
