@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'formulaire@psychotherapie-cachan.fr'
+  default from: 'coline.brault@gmail.com'
   layout 'mailer'
 end
