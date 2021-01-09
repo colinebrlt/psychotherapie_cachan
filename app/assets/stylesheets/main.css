@@ -55,8 +55,8 @@
 .jumbo {
   background-image: url("L1000286.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
   text-align: center;
   padding: 40px 10px;
   position: fixed;
