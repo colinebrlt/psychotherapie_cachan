@@ -1,24 +1,8 @@
-# README
+# PSYCHOTHÉRAPIE CACHAN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+One-page showcase website made for Hélène Levy-Borrel, newly installed psychotherapist in Cachan. 
+https://psychotherapie-cachan.fr
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Languages and libraries: Ruby on Rails, Bootstrap, jQuery, Javascript
+* API: Sendgdrid (for the contact form)
+* Hosted by Heroku
