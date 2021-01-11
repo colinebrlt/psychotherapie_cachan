@@ -5,7 +5,7 @@ class MessageMailer < ApplicationMailer
     @email = message.email
     @phone_number = message.phone_number
     @name = message.name
-    mail(to: 'coline.brault@gmail.com', subject: 'Nouveau message sur le site !')
+    mail(to: 'formulaire.hlb@gmail.com', subject: 'Nouveau message sur le site !')
   end 
 
 end
